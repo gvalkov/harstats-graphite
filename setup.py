@@ -19,7 +19,7 @@ classifiers = (
 
 kw = {
     'name'                 : 'harstats-graphite',
-    'version'              : '0.1.0',
+    'version'              : '0.1.1',
 
     'description'          : 'Summarize HAR files and feed them to carbon',
     'long_description'     : open(join(here, 'README.rst')).read(),
@@ -32,7 +32,7 @@ kw = {
     'keywords'             : 'har graphite carbon',
     'classifiers'          : classifiers,
 
-    'modules'              : ['harstatsgraphite'],
+    'py_modules'           : ['harstatsgraphite'],
     'zip_safe'             : True,
 }
 
